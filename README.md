@@ -22,11 +22,11 @@ Contiki repository through pull requests.
 * Contiki fork with a 6lbr branch: http://github.com/cetic/contiki
 
 For the connection with the ENC28j60 with the Launchpad, connect:
-ENC MISO - DIO8
-ENC SCK  - DIO10
-ENC MOSI - DIO9
-ENC CS   - DIO14
-3.3 V  - 3.3V
-GND - GND
+* ENC MISO - DIO8
+* ENC SCK  - DIO10
+* ENC MOSI - DIO9
+* ENC CS   - DIO14
+* 3.3 V  - 3.3V
+* GND - GND
 
 
