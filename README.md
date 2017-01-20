@@ -4,6 +4,12 @@ This repository is intended only to document the modifications I made in origina
 
 I also changed the default frequency and channel to my country regulations in dot-15-4g.h files, but it's optional. 
 
+To compile the firmware:
+
+* cd 6lbr/examples/6lbr
+* make TARGET=srf06-cc26xx BOARD=launchpad/cc1310 all
+* upload the image under 6lbr\examples\6lbr\bin_srf06-cc26xx to your board
+
 To connect the ENC28j60 with the Launchpad, use dupont cables (female-female) between these pins:
 * ENC MISO --> DIO8
 * ENC SCK  --> DIO10
