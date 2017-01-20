@@ -2,6 +2,8 @@
 
 This repository is intended only to document the modifications I made in original CETIC´s 6LBR code to build a standalone 6LBR without a host (like Raspberry Pi or BBB), just jumping a cheap ENC28j60 module to a Launchpad cc1310 board.
 
+I also changed the default frequency and channel to my country in dot-15-4g.h files, but it´s optional. 
+
 To connect the ENC28j60 with the Launchpad, use dupont cables (female-female) between these pins:
 * ENC MISO --> DIO8
 * ENC SCK  --> DIO10
